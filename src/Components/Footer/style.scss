@@ -1,0 +1,19 @@
+.footer {
+    width: 100%;
+    background:#161616;
+
+    .main {
+        width: 100%;
+        background:#161616;
+    }
+
+    .extra {
+        width: 100%;
+        height: 50px;
+        color: white;
+        background:black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
