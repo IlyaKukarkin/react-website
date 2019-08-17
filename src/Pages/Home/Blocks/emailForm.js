@@ -14,7 +14,7 @@ const EmailFormBlock = props => (
                     <FormControl placeholder="ФИО"/>
                     <FormControl placeholder="Email" />
                     <FormControl placeholder="Телефон" />
-                    <Button > Отправить вопрос </Button>
+                    <Button> Отправить вопрос </Button>
                 </div>
             </Col>
             <Col xs={6} md={6}>

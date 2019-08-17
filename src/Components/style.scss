@@ -7,6 +7,7 @@
 @import './ContentBlock/style.scss';
 @import './Service/style.scss';
 @import './Image/style.scss';
+@import './News/style.scss';
 @import './../Pages/Home/Blocks/style.scss';
 
 .form-control {
@@ -56,7 +57,7 @@
 
         &:hover, &:active, &:focus {
             box-shadow: none;
-            color: white;
+            color: #00b8e6;
         }
     }
 }

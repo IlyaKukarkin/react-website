@@ -1,0 +1,21 @@
+.newsItem {
+    width: 100%;
+    font-size: 14px;
+
+    .newsItem--date {
+        color: black;
+        font-style: italic;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .newsItem--image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .newsItem--text {
+        color: black;
+    }
+}
