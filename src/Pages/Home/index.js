@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-import Services from './Blocks/Services';
+import Services from './Blocks/services';
+import Projects from './Blocks/projects';
 
 const HomePage = props => (
-    <Services />
+    <Fragment>
+        <Services />
+        <Projects />
+    </Fragment>
 );
 
 export default HomePage
