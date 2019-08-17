@@ -1,5 +1,4 @@
 
-@import './Button/style.scss';
 @import './Frame/style.scss';
 @import './Navbar/style.scss';
 @import './Footer/style.scss';
@@ -8,6 +7,59 @@
 @import './ContentBlock/style.scss';
 @import './Service/style.scss';
 @import './Image/style.scss';
+@import './../Pages/Home/Blocks/style.scss';
+
+.form-control {
+    border: 2px solid #00bdec;
+    border-radius: 0px;
+    text-transform: uppercase;
+
+    &:hover, &:active, &:focus {
+        box-shadow: none;
+        border: 2px solid #00bdec;
+    }
+}
+
+.btn {
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 0px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    text-transform: uppercase;
+  
+    &.btn-primary {
+        background-color: #00bdec;
+
+        &:hover, &:active, &:focus {
+            background-color: #00b8e6;
+            border: 2px solid transparent;
+            box-shadow: none;
+        }
+    }
+  
+    &.btn-outline {
+        background-color: transparent;
+        border: 2px solid white;
+
+        &:hover, &:active, &:focus {
+            border: 2px solid white;
+            color: white;
+            box-shadow: none;
+        }
+    }
+
+    &.btn-flat {
+        background-color: transparent;
+        border: transparent;
+        color: #00bdec;
+
+        &:hover, &:active, &:focus {
+            box-shadow: none;
+            color: white;
+        }
+    }
+}
 
 // Import Bootstrap and its default variables
 // @import '~bootstrap/scss/bootstrap.scss';
