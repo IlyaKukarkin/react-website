@@ -1,0 +1,17 @@
+.block {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    .header {
+        font-size: 26px;
+        color: #00bdec;
+        text-transform: uppercase;
+    }
+
+    .line {
+        background-color: #ff5384;
+        width: 75px;
+        height: 2px;
+    }
+}

@@ -7,10 +7,10 @@
     text-transform: uppercase;
   
     &.btn-primary {
-        background-color: #26a1e4;
+        background-color: #00bdec;
 
         &:hover, &:active, &:focus {
-            background-color: #198ecc;
+            background-color: #00b8e6;
             border: 2px solid transparent;
             box-shadow: none;
         }
@@ -25,5 +25,16 @@
             color: white;
             box-shadow: none;
         }
-    }   
+    }
+
+    &.btn-flat {
+        background-color: transparent;
+        border: transparent;
+        color: #00bdec;
+
+        &:hover, &:active, &:focus {
+            box-shadow: none;
+            color: white;
+        }
+    }
 }

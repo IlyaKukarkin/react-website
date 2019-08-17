@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Row from 'react-bootstrap/Row';
 
 import FooterData from './../../Data/mock-data/footer.json'
 import FooterBlock from './FooterBlock';
@@ -8,9 +9,11 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div className="main">
-                    {FooterData.data.map((item) =>
-                        <FooterBlock header={item.header} content={item.content} />
-                    )}
+                    <Row className="row">
+                        {FooterData.data.map((item) =>
+                            <FooterBlock header={item.header} content={item.content} />
+                        )}
+                    </Row>
                 </div>
                 <div className="extra">
                     {FooterData.subFooterText}
