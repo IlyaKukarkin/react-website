@@ -6,8 +6,8 @@ import site3 from './../../Data/images/site3.jpg';
 import news1 from './../../Data/images/news1.jpg';
 import news2 from './../../Data/images/news2.jpg';
 
-const getImage = iconName => {
-    switch (iconName) {
+const getImage = imageName => {
+    switch (imageName) {
         case "site1":
             return site1;
         case "site2":

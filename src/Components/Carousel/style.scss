@@ -1,0 +1,27 @@
+.carousel {
+    
+
+    .carousel-inner {
+        max-height: 483px;
+        
+        img {
+            filter: brightness(50%);
+        }
+    }
+
+    .carousel-caption {
+        top: 150px;
+
+        h3 {
+            text-transform: uppercase;
+        }
+
+        button {
+            margin-top: 40px;
+        }
+    }
+
+    .carousel-indicators {
+        visibility: hidden;
+    }
+}

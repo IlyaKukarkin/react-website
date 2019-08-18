@@ -6,9 +6,11 @@ import EmailForm from './Blocks/emailForm';
 import News from './Blocks/news';
 import Facts from './Blocks/facts';
 import Contact from './Blocks/contact';
+import Carousel from './Blocks/carousel';
 
 const HomePage = props => (
     <Fragment>
+        <Carousel />
         <Services />
         <Contact />
         <Projects />
