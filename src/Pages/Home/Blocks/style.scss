@@ -17,10 +17,19 @@
     text-transform: uppercase;
     color: white;
     line-height: 35px;
+    text-align: center;
 
     .contact--text {
         display: inline-block;
         vertical-align: middle;
         line-height: normal;
+    }
+}
+
+.contact--button {
+    button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

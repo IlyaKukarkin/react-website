@@ -17,7 +17,9 @@ const ContactBlock = () => (
                 </div>
             </Col>
             <Col xs={3} md={3}>
-                <Button variant="outline">Подробнее</Button>
+                <div className="contact--button">
+                    <Button variant="outline">Подробнее</Button>
+                </div>
             </Col>
         </Row>
     </ContentBlock>

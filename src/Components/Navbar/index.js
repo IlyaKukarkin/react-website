@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import logo from 'Data/icons/web.png';
 
 const MyNavbar = props => (
-    <Navbar>
+    <Navbar collapseOnSelect expand="lg">
         <Nav className="mr-auto">
             <Nav className="justify-content-center">
                 <Navbar.Brand href="/">
@@ -21,6 +21,7 @@ const MyNavbar = props => (
                 </Navbar.Brand>
             </Nav>
         </Nav>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto"></Nav>
             <Nav>

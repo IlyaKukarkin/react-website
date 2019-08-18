@@ -19,4 +19,12 @@
     .newsItem--text {
         color: black;
     }
+
+    .newsItem--button {
+        button {
+            display: block;
+            margin-left: auto;
+            margin-right: 0px;
+        }
+    }
 }
