@@ -1,4 +1,5 @@
 import React from 'react';
+import { string, node } from 'prop-types';
 
 const ContentBlock = props => (
     <div className="block" style={{backgroundColor: props.color}}>
@@ -13,5 +14,11 @@ const ContentBlock = props => (
         {props.children}
     </div>
 );
+
+ContentBlock.propTypes = {
+    header: string,
+    color: string,
+    children: node
+}
 
 export default ContentBlock

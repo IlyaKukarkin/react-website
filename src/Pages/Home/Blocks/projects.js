@@ -7,7 +7,7 @@ import Image from './../../../Components/Image';
 
 import SiteData from './../../../Data/mock-data/prevWork.json'
 
-const ProjectBlock = props => (
+const ProjectBlock = () => (
     <ContentBlock color='white' header="Последние работы">
         <Row>
             {SiteData.data.map((item) =>

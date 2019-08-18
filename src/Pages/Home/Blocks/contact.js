@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 import ContentBlock from './../../../Components/ContentBlock';
 
-const ContactBlock = props => (
+const ContactBlock = () => (
     <ContentBlock color='#00bdec'>
         <Row>
             <Col xs={9} md={9}>

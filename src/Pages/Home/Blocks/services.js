@@ -7,7 +7,7 @@ import Service from '../../../Components/Service';
 
 import ServiceData from './../../../Data/mock-data/services.json'
 
-const ServiceBlock = props => (
+const ServiceBlock = () => (
     <ContentBlock color='white'>
         <Row>
             {ServiceData.data.map((item) =>

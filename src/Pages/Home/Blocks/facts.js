@@ -7,7 +7,7 @@ import Fact from './../../../Components/Fact';
 
 import FactsData from './../../../Data/mock-data/facts.json'
 
-const FactsBlock = props => (
+const FactsBlock = () => (
     <ContentBlock color='#00bdec'>
         <Row>
             {FactsData.data.map((item) =>

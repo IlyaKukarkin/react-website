@@ -1,4 +1,5 @@
 import React from 'react';
+import { string, array } from 'prop-types';
 
 import FooterLine from './FooterLine';
 
@@ -14,5 +15,10 @@ const FooterBlock = props => (
         </div>
     </div>
 );
+
+FooterBlock.propTypes = {
+    content: array,
+    header: string
+}
 
 export default FooterBlock

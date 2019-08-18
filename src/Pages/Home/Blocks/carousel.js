@@ -4,7 +4,7 @@ import Carousel from './../../../Components/Carousel';
 
 import CarouselData from './../../../Data/mock-data/carousel.json'
 
-const CarouselBlock = props => (
+const CarouselBlock = () => (
     <Carousel data={CarouselData.data}/>
 );
 

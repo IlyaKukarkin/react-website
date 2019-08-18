@@ -1,4 +1,5 @@
 import React from 'react';
+import { string } from 'prop-types';
 
 import computer from './../../Data/icons/computer.png';
 import networking2 from './../../Data/icons/networking2.png';
@@ -44,5 +45,11 @@ const Service = props => (
         </div>
     </div>
 );
+
+Service.propTypes = {
+    icon: string.isRequired,
+    header: string.isRequired,
+    text: string.isRequired
+}
 
 export default Service

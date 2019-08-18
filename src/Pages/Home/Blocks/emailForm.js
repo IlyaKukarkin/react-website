@@ -6,7 +6,7 @@ import FormControl from 'react-bootstrap/FormControl';
 
 import ContentBlock from '../../../Components/ContentBlock';
 
-const EmailFormBlock = props => (
+const EmailFormBlock = () => (
     <ContentBlock color='white' header="Напишите нам">
         <div className="emailForm">
             <Row>

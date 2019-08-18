@@ -1,4 +1,5 @@
 import React from 'react';
+import { string, bool, oneOfType } from 'prop-types';
 
 import phone from './../../../../Data/icons/phone.png';
 import email from './../../../../Data/icons/email.png';
@@ -27,9 +28,12 @@ const FooterLine = props => (
                     </div>
                 )
         }
-
-
     </div>
 );
+
+FooterLine.propTypes = {
+    icon: oneOfType([string, bool]).isRequired,
+    text: string.isRequired
+}
 
 export default FooterLine

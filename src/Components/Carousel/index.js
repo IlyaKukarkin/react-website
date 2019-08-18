@@ -1,4 +1,5 @@
 import React from 'react';
+import { arrayOf, string, exact } from 'prop-types';
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselItem from 'react-bootstrap/CarouselItem';
 import CarouselCaption from 'react-bootstrap/CarouselCaption';
@@ -39,5 +40,14 @@ const MyCarousel = props => (
         )}
     </Carousel>
 );
+
+MyCarousel.propTypes = {
+    data: arrayOf(exact({
+        image: string.isRequired,
+        header: string.isRequired,
+        text: string.isRequired,
+        buttonText: string.isRequired
+    })).isRequired
+}
 
 export default MyCarousel

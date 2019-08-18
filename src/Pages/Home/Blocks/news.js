@@ -7,7 +7,7 @@ import NewsItem from './../../../Components/News';
 
 import NewsData from './../../../Data/mock-data/news.json'
 
-const NewsBlock = props => (
+const NewsBlock = () => (
     <ContentBlock color='white' header="Новости">
         <Row>
             {NewsData.data.map((item) =>

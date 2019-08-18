@@ -1,4 +1,5 @@
 import React from 'react';
+import { string } from 'prop-types';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -29,5 +30,11 @@ const NewsItem = props => (
         </Row>
     </div>
 );
+
+NewsItem.propTypes = {
+    image: string.isRequired,
+    date: string.isRequired,
+    text: string.isRequired
+}
 
 export default NewsItem
