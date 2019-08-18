@@ -8,21 +8,19 @@ import ContentBlock from '../../../Components/ContentBlock';
 
 const EmailFormBlock = props => (
     <ContentBlock color='white' header="Напишите нам">
-        <Row>
-            <Col xs={6} md={6}>
-                <div className="emailFormLeft">
-                    <FormControl placeholder="ФИО"/>
+        <div className="emailForm">
+            <Row>
+                <Col xs={6} md={6}>
+                    <FormControl placeholder="ФИО" />
                     <FormControl placeholder="Email" />
                     <FormControl placeholder="Телефон" />
                     <Button> Отправить вопрос </Button>
-                </div>
-            </Col>
-            <Col xs={6} md={6}>
-                <div className="emailFormRight">
+                </Col>
+                <Col xs={6} md={6}>
                     <FormControl as="textarea" placeholder="Ваше сообщение" />
-                </div>
-            </Col>
-        </Row>
+                </Col>
+            </Row>
+        </div>
     </ContentBlock>
 );
 

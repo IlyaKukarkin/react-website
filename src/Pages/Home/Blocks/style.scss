@@ -1,4 +1,4 @@
-.emailFormLeft {
+.emailForm {
     input {
         margin-bottom: 10px;
     }
@@ -6,11 +6,21 @@
     button {
         width: 100%;
     }
-}
 
-.emailFormRight {
     textarea {
         height: 134px;
         resize: none;
+    }
+}
+
+.contact {
+    text-transform: uppercase;
+    color: white;
+    line-height: 35px;
+
+    .contact--text {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
     }
 }

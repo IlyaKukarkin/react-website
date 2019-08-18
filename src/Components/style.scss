@@ -8,6 +8,7 @@
 @import './Service/style.scss';
 @import './Image/style.scss';
 @import './News/style.scss';
+@import './Fact/style.scss';
 @import './../Pages/Home/Blocks/style.scss';
 
 .form-control {
@@ -17,7 +18,7 @@
 
     &:hover, &:active, &:focus {
         box-shadow: none;
-        border: 2px solid #00bdec;
+        border: 2px solid #00b8e6;
     }
 }
 
