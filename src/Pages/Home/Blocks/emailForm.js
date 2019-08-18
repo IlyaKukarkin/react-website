@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import FormControl from 'react-bootstrap/FormControl';
 
-import ContentBlock from '../../../Components/ContentBlock';
+import ContentBlock from 'Components/ContentBlock';
 
 const EmailFormBlock = () => (
     <ContentBlock color='white' header="Напишите нам">

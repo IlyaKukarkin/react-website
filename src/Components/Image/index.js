@@ -1,11 +1,11 @@
 import React from 'react';
 import { string, bool } from 'prop-types';
 
-import site1 from './../../Data/images/site1.jpg';
-import site2 from './../../Data/images/site2.jpg';
-import site3 from './../../Data/images/site3.jpg';
-import news1 from './../../Data/images/news1.jpg';
-import news2 from './../../Data/images/news2.jpg';
+import site1 from 'Data/images/site1.jpg';
+import site2 from 'Data/images/site2.jpg';
+import site3 from 'Data/images/site3.jpg';
+import news1 from 'Data/images/news1.jpg';
+import news2 from 'Data/images/news2.jpg';
 
 const getImage = imageName => {
     switch (imageName) {

@@ -2,10 +2,10 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import ContentBlock from './../../../Components/ContentBlock';
-import Fact from './../../../Components/Fact';
+import ContentBlock from 'Components/ContentBlock';
+import Fact from 'Components/Fact';
 
-import FactsData from './../../../Data/mock-data/facts.json'
+import FactsData from 'Data/mock-data/facts.json'
 
 const FactsBlock = () => (
     <ContentBlock color='#00bdec'>

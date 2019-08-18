@@ -2,10 +2,10 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import ContentBlock from './../../../Components/ContentBlock';
-import Service from '../../../Components/Service';
+import ContentBlock from 'Components/ContentBlock';
+import Service from 'Components/Service';
 
-import ServiceData from './../../../Data/mock-data/services.json'
+import ServiceData from 'Data/mock-data/services.json'
 
 const ServiceBlock = () => (
     <ContentBlock color='white'>

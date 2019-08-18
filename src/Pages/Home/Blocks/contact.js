@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
-import ContentBlock from './../../../Components/ContentBlock';
+import ContentBlock from 'Components/ContentBlock';
 
 const ContactBlock = () => (
     <ContentBlock color='#00bdec'>

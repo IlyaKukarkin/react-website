@@ -1,12 +1,12 @@
 import React from 'react';
 import { string } from 'prop-types';
 
-import computer from './../../Data/icons/computer.png';
-import networking2 from './../../Data/icons/networking2.png';
-import settings from './../../Data/icons/settings.png';
-import networking from './../../Data/icons/networking.png';
-import laptop from './../../Data/icons/laptop.png';
-import startup from './../../Data/icons/startup.png';
+import computer from 'Data/icons/computer.png';
+import networking2 from 'Data/icons/networking2.png';
+import settings from 'Data/icons/settings.png';
+import networking from 'Data/icons/networking.png';
+import laptop from 'Data/icons/laptop.png';
+import startup from 'Data/icons/startup.png';
 
 const getIcon = iconName => {
     switch (iconName) {

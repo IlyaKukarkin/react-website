@@ -5,9 +5,9 @@ import CarouselItem from 'react-bootstrap/CarouselItem';
 import CarouselCaption from 'react-bootstrap/CarouselCaption';
 import Button from 'react-bootstrap/Button';
 
-import back1 from './../../Data/images/back1.jpg';
-import back2 from './../../Data/images/back2.jpg';
-import back3 from './../../Data/images/back3.jpg';
+import back1 from 'Data/images/back1.jpg';
+import back2 from 'Data/images/back2.jpg';
+import back3 from 'Data/images/back3.jpg';
 
 const getImage = imageName => {
     switch (imageName) {

@@ -2,10 +2,10 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import ContentBlock from './../../../Components/ContentBlock';
-import NewsItem from './../../../Components/News';
+import ContentBlock from 'Components/ContentBlock';
+import NewsItem from 'Components/News';
 
-import NewsData from './../../../Data/mock-data/news.json'
+import NewsData from 'Data/mock-data/news.json'
 
 const NewsBlock = () => (
     <ContentBlock color='white' header="Новости">

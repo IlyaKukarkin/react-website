@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import FooterData from './../../Data/mock-data/footer.json';
+import FooterData from 'Data/mock-data/footer.json';
 import FooterBlock from './FooterBlock';
 
 class Footer extends Component {

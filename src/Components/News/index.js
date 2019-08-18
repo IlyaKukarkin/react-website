@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Image from './../Image';
+import Image from 'Components/Image';
 
 const NewsItem = props => (
     <div className="newsItem">

@@ -1,9 +1,9 @@
 import React from 'react';
 import { string, bool, oneOfType } from 'prop-types';
 
-import phone from './../../../../Data/icons/phone.png';
-import email from './../../../../Data/icons/email.png';
-import address from './../../../../Data/icons/address.png';
+import phone from 'Data/icons/phone.png';
+import email from 'Data/icons/email.png';
+import address from 'Data/icons/address.png';
 
 const getIcon = iconName => {
     return iconName === 'phone' ? phone : iconName === 'email' ? email : address

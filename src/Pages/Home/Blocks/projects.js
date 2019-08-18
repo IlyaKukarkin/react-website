@@ -2,10 +2,10 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import ContentBlock from './../../../Components/ContentBlock';
-import Image from './../../../Components/Image';
+import ContentBlock from 'Components/ContentBlock';
+import Image from 'Components/Image';
 
-import SiteData from './../../../Data/mock-data/prevWork.json'
+import SiteData from 'Data/mock-data/prevWork.json'
 
 const ProjectBlock = () => (
     <ContentBlock color='white' header="Последние работы">

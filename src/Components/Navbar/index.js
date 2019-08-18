@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-import logo from './../../Data/icons/web.png';
+import logo from 'Data/icons/web.png';
 
 const MyNavbar = props => (
     <Navbar>
