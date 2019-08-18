@@ -12,7 +12,9 @@ const ProjectBlock = props => (
         <Row>
             {SiteData.data.map((item) =>
                 <Col xs={6} md={4}>
-                    <Image image={item} width="100%" height="100%"/>
+                    <a href={item.url} target="_blank" rel="noopener noreferrer">
+                        <Image image={item.image} width="100%" height="100%"/>
+                    </a>
                 </Col>
             )}
         </Row>

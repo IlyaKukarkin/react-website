@@ -1,5 +1,16 @@
 {
     "data": [
-        "site1", "site2", "site3"
+        {
+            "image": "site1",
+            "url": "https://bit.ly/30fdXxR"
+        },
+        {
+            "image": "site2",
+            "url": "https://bit.ly/1d3tG3O"
+        },
+        {
+            "image": "site3",
+            "url": "https://bit.ly/2BdXIsy"
+        }
     ]
 }
