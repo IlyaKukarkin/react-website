@@ -1,15 +1,21 @@
+@import 'variables.scss';
+
 .navbar {
     font-size: 16px;
 }
 
 .navbar-brand {
     font-size: 38px;
-    color: #00bdec !important;
+    color: $primary-color !important;
     margin-left: 75px;
 
     img {
         margin-right: 15px;
     }
+}
+
+.headerSpan {
+    color: $secondary-color;
 }
 
 .navbar-nav {
@@ -24,6 +30,6 @@
     text-transform: uppercase;
 
     &.active {
-        color: #00bdec !important;
+        color: $primary-color !important;
     }
 }

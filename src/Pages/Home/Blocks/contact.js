@@ -3,10 +3,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
+import variables from 'variables.scss';
 import ContentBlock from 'Components/ContentBlock';
 
 const ContactBlock = () => (
-    <ContentBlock color='#00bdec'>
+    <ContentBlock color={variables.primaryColor}>
         <Row>
             <Col xs={9} md={9}>
                 <div className="contact">

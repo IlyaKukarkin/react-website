@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 .block {
     width: 100%;
     padding-left: 100px;
@@ -7,12 +9,12 @@
 
     .header {
         font-size: 26px;
-        color: #00bdec;
+        color: $primary-color;
         text-transform: uppercase;
     }
 
     .line {
-        background-color: #ff5384;
+        background-color: $secondary-color;
         width: 68px;
         height: 2px;
         margin-bottom: 30px;

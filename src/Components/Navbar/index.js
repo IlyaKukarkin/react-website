@@ -16,7 +16,8 @@ const MyNavbar = props => (
                         height="60"
                         className="d-inline-block align-top"
                     />
-                    {'GO TO TOP'}
+                    <span>GO TO </span>
+                    <span className="headerSpan">TOP</span>
                 </Navbar.Brand>
             </Nav>
         </Nav>

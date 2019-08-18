@@ -1,4 +1,4 @@
-
+@import 'variables.scss';
 @import './Frame/style.scss';
 @import './Navbar/style.scss';
 @import './Footer/style.scss';
@@ -13,7 +13,7 @@
 @import 'Pages/Home/Blocks/style.scss';
 
 .form-control {
-    border: 2px solid #00bdec;
+    border: 2px solid $primary-color;
     border-radius: 0px;
     text-transform: uppercase;
 
@@ -32,9 +32,9 @@
     text-transform: uppercase;
   
     &.btn-primary {
-        background-color: #00bdec;
+        background-color: $primary-color;
 
-        &:hover, &:active, &:focus {
+        &:hover, &:active, &:focus, &.btn-primary:not(:disabled):not(.disabled):active {
             background-color: #00b8e6;
             border: 2px solid transparent;
             box-shadow: none;
@@ -55,7 +55,7 @@
     &.btn-flat {
         background-color: transparent;
         border: transparent;
-        color: #00bdec;
+        color: $primary-color;
 
         &:hover, &:active, &:focus {
             box-shadow: none;

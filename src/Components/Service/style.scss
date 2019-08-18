@@ -1,10 +1,12 @@
+@import 'variables.scss';
+
 .service {
     width: 100%;
     margin-bottom: 15px;
 
     .header {
         font-size: 18px;
-        color: #00bdec;
+        color: $primary-color;
         text-transform: uppercase;        
         text-align: center;
         margin-top: 10px;
