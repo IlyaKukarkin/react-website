@@ -1,5 +1,7 @@
+@import 'variables.scss';
+
 .image {
-    border: 2px solid #ff5384;
+    border: 2px solid $secondary-color;
     border-radius: 2px;
 }
 
