@@ -12,7 +12,7 @@ class Footer extends Component {
                 <div className="main">
                     <Row className="row">
                         {FooterData.data.map((item) =>
-                            <Col key={item.id} xs={6} md={4}>
+                            <Col key={item.id} xs={4} md={4}>
                                 <FooterBlock header={item.header} content={item.content} />
                             </Col>
                         )}
