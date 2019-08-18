@@ -11,7 +11,7 @@ const ServiceBlock = () => (
     <ContentBlock color='white'>
         <Row>
             {ServiceData.data.map((item) =>
-                <Col xs={6} md={4}>
+                <Col key={item.id} xs={6} md={4}>
                     <Service header={item.header} text={item.text} icon={item.icon}/>
                 </Col>
             )}

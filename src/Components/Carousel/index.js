@@ -1,5 +1,5 @@
 import React from 'react';
-import { arrayOf, string, exact } from 'prop-types';
+import { arrayOf, string, exact, number } from 'prop-types';
 import Carousel from 'react-bootstrap/Carousel';
 import CarouselItem from 'react-bootstrap/CarouselItem';
 import CarouselCaption from 'react-bootstrap/CarouselCaption';
@@ -25,7 +25,7 @@ const getImage = imageName => {
 const MyCarousel = props => (
     <Carousel>
         {props.data.map((item) =>
-            <CarouselItem>
+            <CarouselItem key={item.id}>
                 <img
                     className="d-block w-100"
                     src={getImage(item.image)}
@@ -43,6 +43,7 @@ const MyCarousel = props => (
 
 MyCarousel.propTypes = {
     data: arrayOf(exact({
+        id: number.isRequired,
         image: string.isRequired,
         header: string.isRequired,
         text: string.isRequired,

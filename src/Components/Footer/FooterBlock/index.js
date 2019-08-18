@@ -10,7 +10,7 @@ const FooterBlock = props => (
         </div>
         <div className="content">
             {props.content.map((item) =>
-                <FooterLine icon={item.preicon} text={item.text} />
+                <FooterLine key={item.id} icon={item.preicon} text={item.text} />
             )}
         </div>
     </div>

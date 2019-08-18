@@ -11,7 +11,7 @@ const FactsBlock = () => (
     <ContentBlock color='#00bdec'>
         <Row>
             {FactsData.data.map((item) =>
-                <Col xs={3} md={3}>
+                <Col key={item.id} xs={3} md={3}>
                     <Fact value={item.value} text={item.text} />
                 </Col>
             )}

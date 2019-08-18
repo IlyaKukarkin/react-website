@@ -11,7 +11,7 @@ const NewsBlock = () => (
     <ContentBlock color='white' header="Новости">
         <Row>
             {NewsData.data.map((item) =>
-                <Col xs={6} md={6}>
+                <Col key={item.id} xs={6} md={6}>
                     <NewsItem date={item.date} text={item.text} image={item.image} />
                 </Col>
             )}
